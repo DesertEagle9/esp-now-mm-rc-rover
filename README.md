@@ -1,5 +1,5 @@
 # esp-now-mm-rc-rover
-Arduino code to implement wireless control of a Micromelon Rover using multiple ESP32 remote controllers. The two files in this repository are:
+Arduino code to implement wireless control of a [Micromelon Rover](https://micromelon.com.au/) using multiple ESP32 remote controllers. The two files in this repository are:
 
 **1. ESP-NOW-remote-control-sender.ino:**
 This is the source code for the ESP32 remote controller. The code enables the ESP32 remote controller with pushbuttons (see wiring diagrams) to wirelessly transmit movement commands via ESP-NOW to the ESP32 receiver which relays the received commands to a Micromelon Rover via UART.
