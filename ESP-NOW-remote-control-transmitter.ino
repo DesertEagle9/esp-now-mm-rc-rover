@@ -13,6 +13,9 @@
   Modified original code by Rui Santos to implement an ESP32 remote controller 
   that wirelessly transmits movement commands via ESP-NOW to an ESP32 receiver 
   connected to a Micromelon Rover via UART
+  
+  Instructions to get ESP MAC Address: 
+  https://RandomNerdTutorials.com/get-change-esp32-esp8266-mac-address-arduino/
 */
 
 #include <esp_now.h>
